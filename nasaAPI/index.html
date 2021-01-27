@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="">                                
+  <head>
+    <meta charset="UTF-8">
+    <base href="./">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/main.css" type="text/css">
+  </head>
+  <body>
+
+    <main id="main">
+      
+      <h1 id="apodTitle"></h1>                                 
+
+      <div id="img"><img id="apodImg"></div>
+
+      <div id="apodData"></div>
+      <div id="apodTitulo"></div>
+      <div id="apodCopyright"></div>       
+      <div id="apodExp"></div>
+    
+
+      <div id="input">
+        <input type="date" id="date">
+      </div> 
+
+      <div id="button">
+        <button onclick = "requisicao()" id="buscaData">Buscar</button>
+      </div>
+      
+    </main>
+    <script src="src/js/controller.js"></script>
+    <script src="src/js/model.js"></script>
+    <script src="src/js/view.js"></script>
+    
+  </body>
+</html>
